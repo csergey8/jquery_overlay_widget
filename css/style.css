@@ -1,0 +1,35 @@
+body {
+  font-family: 'Roboto';
+  padding: 20px;
+}
+
+.overlay-veil {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: #cecece;
+  display: none;
+}
+
+.overlay-component {
+  padding: 20px;
+  width: 400px;
+  height: 400px;
+  background: #fff;
+  position: absolute;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  display: none;
+}
+
+.overlay-component .close-overlay {
+  color: #bd2424;
+  float: right;
+  cursor: pointer;
+}
